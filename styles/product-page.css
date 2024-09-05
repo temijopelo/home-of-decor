@@ -1,0 +1,277 @@
+.hero-section {
+  height: inherit;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  z-index: 0;
+  background: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+  position: absolute;
+  width: 100%;
+}
+
+.overlay {
+  position: relative;
+  width: 100%;
+  background-position: center;
+  background-image: url("../images/productpage/7e752b1c4fd79ae4d62d86e4ac1c7ae1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 45rem;
+}
+
+.header_text {
+  font-size: 4rem;
+}
+
+.star {
+  width: 30px;
+
+  height: 30px;
+}
+
+.star_top-1 {
+  position: absolute;
+  top: 12%;
+  right: 5%;
+}
+.star_top-2 {
+  position: absolute;
+  bottom: 2%;
+  left: 15%;
+}
+
+/* filter section  */
+
+.filter_container {
+  display: flex;
+  padding: 2rem;
+  gap: 4rem;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+}
+
+.outline {
+  border: 1px solid black;
+  background-color: transparent;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 10px;
+}
+
+.container {
+  max-width: 90%;
+  margin: auto;
+}
+
+.filter-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+}
+
+.filter-sidebar ul li {
+  padding: 5px;
+  border: 1px solid #d9d9d9;
+  border-radius: 30px;
+  width: 12rem;
+}
+
+.filter-sidebar ul li:hover {
+  background-color: #2d5356;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+.filter_heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dot {
+  color: #d9d9d9;
+  font-size: large;
+}
+
+.filter-sidebar-list {
+  padding: 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+}
+
+.filter_heading {
+  margin-bottom: 10px;
+}
+
+/* filtered content  */
+
+.card-item-img {
+  position: relative;
+}
+
+.badge-heart {
+  position: absolute;
+  left: 300px;
+  top: 20px;
+}
+
+.badge {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #fff;
+  border: 1px solid black;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-description {
+  display: flex;
+  gap: 5rem;
+}
+
+.filter_item_content {
+  padding: 3rem 3rem 6rem;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+}
+
+.filter_item_content h2 {
+  margin-bottom: 2rem;
+}
+
+.filter-details {
+  display: grid;
+  grid-template-columns: 16% 1fr;
+  gap: 30px;
+}
+
+.card-item-text,
+.card-item-tag {
+  padding: 15px;
+}
+
+.card-item-tag {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-item {
+  border: 1px solid #000;
+  transition: transform 0.3s ease;
+}
+
+.card-item:hover {
+  transform: scale(1.05);
+}
+
+.filter-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+/* pagination */
+
+.pagination ul {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+.disabled {
+  opacity: 0.4;
+}
+
+.page-number,
+.page-prev,
+.page-next {
+  height: 30px;
+  width: 20px;
+  text-align: center;
+}
+
+.page-number:hover {
+  height: 30px;
+  width: 20px;
+  border-radius: 10px;
+  background-color: #2d5356;
+  color: #fff;
+}
+
+.liked {
+  color: red;
+}
+
+.toggle-icon {
+  margin-left: auto;
+  transition: transform 0.3s ease;
+}
+
+.toggle-icon.active {
+  transform: rotate(180deg); /* Rotate icon when active */
+}
+
+.filter-list {
+  display: none; /* Initially hide the list */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+  flex-direction: column;
+}
+
+/* Breakpoints  */
+
+@media screen and (max-width: 990px) {
+  .filter-sidebar {
+    display: none;
+  }
+
+  .content-description {
+    flex-wrap: wrap;
+  }
+
+  .filter-details {
+    display: block;
+  }
+
+  .card-item {
+    max-width: 300px;
+  }
+
+  .card-item img {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .filter_container {
+    padding: 0;
+  }
+
+  .badge-heart {
+    position: absolute;
+    left: 80%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .content-description {
+    flex-wrap: wrap;
+  }
+}

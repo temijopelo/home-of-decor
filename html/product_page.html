@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0" />
+    <script src="https://kit.fontawesome.com/127922d8a4.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product | Home of Decor</title>
+    <link rel="stylesheet" href="../styles/components.css" />
+    <link rel="stylesheet" href="../styles/product-page.css" />
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <a href="../index.html"><img src="../images/logo.svg" alt="Home of Decor logo" /></a>
+        </div>
+        <div class="nav-menu" id="nav-menu">
+            <div class="close-nav" id="close-nav"><i class="fa-solid fa-xmark"></i></div>
+            <nav>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../html/product_page.html" class="active-menu">Product</a></li>
+                    <li><a href="../html/about.html">About us</a></li>
+                    <li><a href="../html/blog.html">Blog</a></li>
+                    <li><a href="../html/contact-us.html">Contact us</a></li>
+                </ul>
+            </nav>
+            <div class="profile">
+                <div class="my-account">
+                    <a href="./profile.html">
+                        <i class="fa-regular fa-user fa-lg" style="color: #000000"></i>
+                        <span>My account</span>
+                    </a>
+                    <div class="login-profile">
+                        <div class="login" id="login-ref">Login</div>
+                        <div class="profile-view" id="profile-ref">Profile</div>
+                    </div>
+                </div>
+                <div class="cart-section">
+                    <div class="search"><i class="fa-solid fa-magnifying-glass fa-lg" style="color: #000000"></i></div>
+                    <div class="wish-list"><i class="fa-regular fa-heart fa-lg" style="color: #000000"></i></div>
+                    <div class="shopping-cart"><a href="../html/basket.html"><span class="material-symbols-outlined">
+                                shopping_cart </span></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-bar" id="nav-bar"><i class="fa-solid fa-bars fa-lg"></i></div>
+    </header>
+
+
+    <!-- hero section  -->
+
+    <div class="overlay">
+        <div class="hero-section">
+            <h1 class="header_text">Product</h1>
+
+            <img class="star star_top-1" src="../images/productpage/Star 3.png" alt="">
+            <img class="star star_top-2" src="../images/productpage/Star 3.png" alt="">
+        </div>
+    </div>
+
+    <!-- filter section  -->
+    <div class="container">
+        <div class="filter_container ">
+            <div>
+                <h3>Filter option</h3>
+            </div>
+            <div>
+                <p>Showing 1-15 of 400 result</p>
+            </div>
+            <div>
+                <p>Sort by:</p>
+            </div>
+            <div>
+                <button class="outline btn" type="reset">Default Setting</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- filter content  -->
+    <div class="filter-details container">
+
+        <div class="filter-sidebar">
+            <div class="filter-sidebar-list">
+                <div class="filter_heading">
+                    <h2>Category</h2>
+                    <i class="fa-solid fa-angle-up toggle-icon toggle-icon"></i>
+                </div>
+                <ul class="filter-list">
+                    <li><span class="dot">•</span> All</li>
+                    <li><span class="dot">•</span> Livingroom</li>
+                    <li><span class="dot">•</span> Bedroom</li>
+                    <li><span class="dot">•</span> Decoration</li>
+                    <li><span class="dot">•</span> Lighting</li>
+                    <li><span class="dot">•</span> Rugs</li>
+                    <li><span class="dot">•</span> Kitchen</li>
+                    <li><span class="dot">•</span> Office</li>
+                    <li><span class="dot">•</span> Tables</li>
+                    <li><span class="dot">•</span> Bar room</li>
+                    <li><span class="dot">•</span> Pillow</li>
+                    <li><span class="dot">•</span> Mirrors</li>
+                    <li><span class="dot">•</span> Sectinals</li>
+                    <li><span class="dot">•</span> Luxury</li>
+                </ul>
+            </div>
+            <div class="filter-sidebar-list">
+                <div class="filter_heading">
+                    <h2>Price</h2>
+                    <i class="fa-solid fa-angle-up toggle-icon"></i>
+                </div>
+                <div class="filter-list">
+                    <p>N5,000 - N35,000</p>
+
+                    <hr>
+                </div>
+            </div>
+
+            <div class="filter-sidebar-list">
+                <div class="filter_heading">
+                    <h2>Colour</h2>
+                    <i class="fa-solid fa-angle-up toggle-icon"></i>
+                </div>
+                <ul class="filter-list">
+                    <li><span class="dot">•</span> Default</li>
+                    <li><span class="dot">•</span> Red</li>
+                    <li><span class="dot">•</span> Blue</li>
+                    <li><span class="dot">•</span> Green</li>
+                    <li><span class="dot">•</span> Beinge</li>
+                    <li><span class="dot">•</span> Brown</li>
+                    <li><span class="dot">•</span> White</li>
+                    <li><span class="dot">•</span> Pink</li>
+                    <li><span class="dot">•</span> Yellow</li>
+                    <li><span class="dot">•</span> Gold</li>
+                    <li><span class="dot">•</span> Silver</li>
+                    <li><span class="dot">•</span> Brownze</li>
+
+                </ul>
+            </div>
+
+            <div class="filter-sidebar-list">
+                <div class="filter_heading">
+                    <h2>Martial</h2>
+                    <i class="fa-solid fa-angle-up toggle-icon"></i>
+                </div>
+                <ul class="filter-list">
+                    <li><span class="dot">•</span> Default</li>
+                    <li><span class="dot">•</span> Wood</li>
+                    <li><span class="dot">•</span> Cloth</li>
+                    <li><span class="dot">•</span> Glass</li>
+                    <li><span class="dot">•</span> Plastic</li>
+
+
+                </ul>
+            </div>
+
+            <div class="filter-sidebar-list">
+                <div class="filter_heading">
+                    <h2>Avalibility</h2>
+                    <i class="fa-solid fa-angle-up toggle-icon"></i>
+                </div>
+                <ul class="filter-list">
+                    <li><span class="dot">•</span> instock</li>
+                    <li><span class="dot">•</span> out of stock</li>
+
+
+
+                </ul>
+            </div>
+        </div>
+
+
+
+        <!-- filtered content -->
+
+        <div class="filter-items">
+            <div class="filter_item_content">
+                <h2>Bar Furniture</h2>
+                <div class="content-description">
+                    <div class="card-item">
+                        <div class="card-item-img">
+                            <img src="../images/productpage/frame01.png" alt="">
+                            <span class="badge badge-heart">
+
+
+
+                                <i class="fa-regular fa-heart heart"></i>
+
+                            </span>
+                        </div>
+                        <div class="card-item-text">Brown Iron Velvet Chair</div>
+                        <div class="card-item-tag">
+                            <p>N130,000.00</p>
+                            <span class="badge">
+
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="card-item">
+                        <div class="card-item-img">
+                            <img src="../images/productpage/frame02.png" alt="">
+                            <span class="badge badge-heart">
+
+
+
+                                <i class="fa-regular fa-heart heart"></i>
+
+                            </span>
+                        </div>
+                        <div class="card-item-text">Black and white Bar Chair</div>
+                        <div class="card-item-tag">
+                            <p>N100,000.00</p>
+                            <span class="badge">
+
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="card-item">
+                        <div class="card-item-img">
+                            <img src="../images/productpage/frame03.png" alt="" width="346px" height="441px">
+                            <span class="badge badge-heart">
+
+
+
+                                <i class="fa-regular fa-heart heart"></i>
+
+                            </span>
+                        </div>
+                        <div class="card-item-text">Iron Velvet Bar Chair</div>
+                        <div class="card-item-tag">
+                            <p>N80,000.00</p>
+                            <span class="badge">
+
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="filter_item_content">
+                <h2>Lightining</h2>
+                <div class="content-description">
+                    <div class="card-item">
+                        <div class="card-item-img">
+                            <img src="../images/productpage/frame04.png" alt="">
+                            <span class="badge badge-heart">
+
+
+
+                                <i class="fa-regular fa-heart heart"></i>
+
+                            </span>
+                        </div>
+                        <div class="card-item-text">Black Plastic Wall Lamp</div>
+                        <div class="card-item-tag">
+                            <p>N60,000</p>
+                            <span class="badge">
+
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="card-item">
+                        <div class="card-item-img">
+                            <img src="../images/productpage/frame05.png" alt="">
+                            <span class="badge badge-heart">
+
+
+
+                                <i class="fa-regular fa-heart heart"></i>
+
+                            </span>
+                        </div>
+                        <div class="card-item-text">Savitar Black Mount Lamp</div>
+                        <div class="card-item-tag">
+                            <p>N30,000.00</p>
+                            <span class="badge">
+
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="card-item">
+                        <div class="card-item-img">
+                            <img src="../images/productpage/frame06.png" alt="" width="346px" height="441px">
+                            <span class="badge badge-heart">
+
+
+
+                                <i class="fa-regular fa-heart heart"></i>
+
+                            </span>
+                        </div>
+                        <div class="card-item-text">Celeford Bamboo Lamp</div>
+                        <div class="card-item-tag">
+                            <p>N50,000.00</p>
+                            <span class="badge">
+
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="filter_item_content">
+                <h2>Bedroom</h2>
+                <div class="content-description">
+                    <div class="card-item">
+                        <div class="card-item-img">
+                            <img src="../images/productpage/frame07.png" alt="">
+                            <span class="badge badge-heart">
+
+
+
+                                <i class="fa-regular fa-heart heart"></i>
+
+                            </span>
+                        </div>
+                        <div class="card-item-text">King Delux Size Bed</div>
+                        <div class="card-item-tag">
+                            <p>N133,000.00</p>
+                            <span class="badge">
+
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="card-item">
+                        <div class="card-item-img">
+                            <img src="../images/productpage/frame08.png" alt="">
+                            <span class="badge badge-heart">
+
+
+
+                                <i class="fa-regular fa-heart heart"></i>
+
+                            </span>
+                        </div>
+                        <div class="card-item-text">Brown Linen MDF Bed</div>
+                        <div class="card-item-tag">
+                            <p>N145,000.00</p>
+                            <span class="badge">
+
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="card-item">
+                        <div class="card-item-img">
+                            <img src="../images/productpage/frame09.png" alt="" width="346px" height="441px">
+                            <span class="badge badge-heart">
+
+
+
+                                <i class="fa-regular fa-heart heart"></i>
+
+                            </span>
+                        </div>
+                        <div class="card-item-text">Velvet King Size Bed</div>
+                        <div class="card-item-tag">
+                            <p>N120,000.00</p>
+                            <span class="badge">
+
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="filter_item_content">
+                <h2>Tables</h2>
+                <div class="content-description">
+                    <div class="card-item">
+                        <div class="card-item-img">
+                            <img src="../images/productpage/frame10.png" alt="">
+                            <span class="badge badge-heart">
+
+
+
+                                <i class="fa-regular fa-heart heart"></i>
+
+                            </span>
+                        </div>
+                        <div class="card-item-text">Gold Steel Centre Table</div>
+                        <div class="card-item-tag">
+                            <p>N80,000.00</p>
+                            <span class="badge">
+
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="card-item">
+                        <div class="card-item-img">
+                            <img src="../images/productpage/frame11.png" alt="">
+                            <span class="badge badge-heart">
+
+
+
+                                <i class="fa-regular fa-heart heart"></i>
+
+                            </span>
+                        </div>
+                        <div class="card-item-text">Five Piece Square Table</div>
+                        <div class="card-item-tag">
+                            <p>N100,000.00</p>
+                            <span class="badge">
+
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="card-item">
+                        <div class="card-item-img">
+                            <img src="../images/productpage/frame12.jpeg" alt="" width="346px" height="441px">
+                            <span class="badge badge-heart">
+
+
+
+                                <i class="fa-regular fa-heart heart"></i>
+
+                            </span>
+                        </div>
+                        <div class="card-item-text">Steel Table</div>
+                        <div class="card-item-tag">
+                            <p>N70,000.00</p>
+                            <span class="badge">
+
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="filter_item_content">
+                <h2>Sofa</h2>
+                <div class="content-description">
+                    <div class="card-item">
+                        <div class="card-item-img">
+                            <img src="../images/productpage/frame13.png" alt="">
+                            <span class="badge badge-heart">
+
+
+
+                                <i class="fa-regular fa-heart heart"></i>
+
+                            </span>
+                        </div>
+                        <div class="card-item-text">Monet Sofa Chair</div>
+                        <div class="card-item-tag">
+                            <p>N80,000.00</p>
+                            <span class="badge">
+
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="card-item">
+                        <div class="card-item-img">
+                            <img src="../images/productpage/frame14.png" alt="">
+                            <span class="badge badge-heart">
+
+
+
+                                <i class="fa-regular fa-heart heart"></i>
+
+                            </span>
+                        </div>
+                        <div class="card-item-text">Seldex Brown Sofa Chair</div>
+                        <div class="card-item-tag">
+                            <p>N90,000.00</p>
+                            <span class="badge">
+
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="card-item">
+                        <div class="card-item-img">
+                            <img src="../images/productpage/frame15.png" alt="" width="346px" height="441px">
+                            <span class="badge badge-heart">
+
+
+
+                                <i class="fa-regular fa-heart heart"></i>
+
+                            </span>
+                        </div>
+                        <div class="card-item-text">Tamford Sofa Chair</div>
+                        <div class="card-item-tag">
+                            <p>N70,000.00</p>
+                            <span class="badge">
+
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="filter_item_content">
+                <h2>Kitchen</h2>
+                <div class="content-description">
+                    <div class="card-item">
+                        <div class="card-item-img">
+                            <img src="../images/productpage/frame16.png" alt="">
+                            <span class="badge badge-heart">
+
+
+
+                                <i class="fa-regular fa-heart heart"></i>
+
+                            </span>
+                        </div>
+                        <div class="card-item-text">Electrical Macro Refridgerator</div>
+                        <div class="card-item-tag">
+                            <p>N200,000.00</p>
+                            <span class="badge">
+
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="card-item">
+                        <div class="card-item-img">
+                            <img src="../images/productpage/frame17.png" alt="">
+                            <span class="badge badge-heart">
+
+
+
+                                <i class="fa-regular fa-heart heart"></i>
+
+                            </span>
+                        </div>
+                        <div class="card-item-text">MLK Kitchen Oven/Gas cooker</div>
+                        <div class="card-item-tag">
+                            <p>N60,000.00</p>
+                            <span class="badge">
+
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="card-item">
+                        <div class="card-item-img">
+                            <img src="../images/productpage/frame18.png" alt="" width="346px" height="441px">
+                            <span class="badge badge-heart">
+
+
+
+                                <i class="fa-regular fa-heart heart"></i>
+
+                            </span>
+                        </div>
+                        <div class="card-item-text">Brown Steel Ingredient Shelves</div>
+                        <div class="card-item-tag">
+                            <p>N30,000.00</p>
+                            <span class="badge">
+
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="filter_item_content">
+                <h2>Bathroom</h2>
+                <div class="content-description">
+                    <div class="card-item">
+                        <div class="card-item-img">
+                            <img src="../images/productpage/frame19.png" alt="">
+                            <span class="badge badge-heart">
+
+
+
+                                <i class="fa-regular fa-heart heart"></i>
+
+                            </span>
+                        </div>
+                        <div class="card-item-text">5CK Oval Bathtub Stand</div>
+                        <div class="card-item-tag">
+                            <p>N200,000.00</p>
+                            <span class="badge">
+
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="card-item">
+                        <div class="card-item-img">
+                            <img src="../images/productpage/frame20.png" alt="">
+                            <span class="badge badge-heart">
+
+
+
+                                <i class="fa-regular fa-heart heart"></i>
+
+                            </span>
+                        </div>
+                        <div class="card-item-text">Metal Towel Holder</div>
+                        <div class="card-item-tag">
+                            <p>N130,000.00</p>
+                            <span class="badge">
+
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="card-item">
+                        <div class="card-item-img">
+                            <img src="../images/productpage/frame21.png" alt="" width="346px" height="441px">
+                            <span class="badge badge-heart">
+
+
+
+                                <i class="fa-regular fa-heart heart"></i>
+
+                            </span>
+                        </div>
+                        <div class="card-item-text">Bathroom Unit Light Grey Set</div>
+                        <div class="card-item-tag">
+                            <p>N180,000.00</p>
+                            <span class="badge">
+
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pagination container">
+        <ul>
+            <li class="disabled page-prev">PREV</li>
+            <li class="page-number">1</li>
+            <li class="page-number">2</li>
+            <li class="page-number">3</li>
+            <li class="page-number">4</li>
+            <li class="page-number">5</li>
+            <li class="page-next">NEXT</li>
+        </ul>
+    </div>
+
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature">
+            <i class="fa-solid fa-truck-fast"></i>
+            <h3>Fast & Free Shipping</h3>
+        </div>
+        <div class="feature">
+            <i class="fa-solid fa-store"></i>
+            <h3>Easy to Shop</h3>
+        </div>
+        <div class="feature">
+            <i class="fa-solid fa-headset"></i>
+            <h3>24/7 Support</h3>
+        </div>
+        <div class="feature">
+            <i class="fa-solid fa-share fa-flip-horizontal"></i>
+            <h3>Hassle Free Returns</h3>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Information</h3>
+                <ul>
+                    <li><a href="#">Delivery information</a></li>
+                    <li><a href="#">Offers</a></li>
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">Shipping information</a></li>
+                    <li><a href="#">Track your order</a></li>
+                    <li><a href="#">Catalogues</a></li>
+                    <li><a href="#">Help Center</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>About us</h3>
+                <ul>
+                    <li><a href="#">Our Company</a></li>
+                    <li><a href="#">Our story</a></li>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">Financing</a></li>
+                    <li><a href="#">Advertise with us</a></li>
+                    <li><a href="#">Location</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Customer service</h3>
+                <ul>
+                    <li><a href="#">My Order</a></li>
+                    <li><a href="#">My account</a></li>
+                    <li><a href="#">24/7 call available</a></li>
+                    <li><a href="#">Complains</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Resource</h3>
+                <ul>
+                    <li><a href="#">Free Design Service</a></li>
+                    <li><a href="#">Gift Registry</a></li>
+                    <li><a href="#">Trader Resource</a></li>
+                    <li><a href="#">Become an Affiliate</a></li>
+                    <li><a href="#">Creator Program</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><i class="fa-regular fa-envelope fa-lg"></i><a
+                            href="mailto:HODecor@gmail.com">HODecor@gmail.com</a>
+                    </li>
+                    <li><i class="fa-solid fa-phone fa-lg"></i><a href="tel:+2349043356791">+2349043356791</a></li>
+                    <li>
+                        <span>Follow us on</span>
+                        <a href="#"><i class="fa-brands fa-facebook fa-lg" style="color: #2c53af"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter fa-lg" style="color: #000000"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram fa-lg" style="color: #b12525"></i></a>
+                    </li>
+                    <li><i class="fa-solid fa-location-dot fa-lg"></i><span>Lagos</span><i
+                            class="fa-solid fa-location-dot fa-lg"></i><span>Abuja</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-logo">
+            <img src="../images/logo.svg" alt="Home of Decor Logo" />
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Home of Decor. All rights reserved</p>
+            <div class="footer-links">
+                <a href="#">Privacy</a>
+                <a href="#">Terms & Conditions</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="../scripts/script.js"></script>
+
+
+
+</body>
+
+</html>

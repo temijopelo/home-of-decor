@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home of Decor - Sign Up</title>
+    <link rel="stylesheet" href="../styles/sign-up.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/127922d8a4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="header-logo">
+          <img
+            src="../images/login-page/header-logo.png"
+            alt="Home of Decor Logo"
+            class="logo"
+          />
+        </div>
+      </div>
+      <div class="form-container">
+        <div class="form-wrap">
+          <div class="form-text">
+            <h1>Create Account</h1>
+            <p>Enter details to create an account</p>
+          </div>
+          <form id="sign-up-form">
+            <div class="form-input">
+              <input
+                type="text"
+                name="fullName"
+                placeholder="Enter your name"
+                required
+                aria-label="Full Name"
+              />
+              <input
+                type="number"
+                name="age"
+                placeholder="Age"
+                required
+                aria-label="Age"
+              />
+              <input
+                type="text"
+                name="gender"
+                placeholder="Gender"
+                required
+                aria-label="Gender"
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+                aria-label="Email"
+              />
+              <input
+                type="tel"
+                name="phone"
+                placeholder="Phone number"
+                required
+                aria-label="Phone Number"
+              />
+              <input
+                type="text"
+                name="address"
+                placeholder="Address"
+                required
+                aria-label="Address"
+              />
+              <button type="submit" class="sign-up-button"><a href="../html/index.html">Sign Up</a></button>
+            </div>
+          </form>
+
+          <div class="sign-in-options">
+            <p>
+              Already have an account?
+              <a href="./sign-in.html" title="Sign in to Home of Decor"
+                >Sign in</a
+              >
+            </p>
+            <div class="divider">or</div>
+            <p>Sign up with</p>
+            <div class="social-login">
+              <a href="#" class="google-btn" aria-label="Continue with Google">
+                <img src="../images/login-page/google.png" alt="Google icon" />
+                Continue with Google
+              </a>
+              <button class="facebook" aria-label="Continue with Facebook">
+                <i class="fa-brands fa-facebook" style="color: #305dab"></i>
+                <span>Continue with Facebook</span>
+              </button>
+              <button class="twitter" aria-label="Continue with Twitter">
+                <i class="fa-brands fa-twitter" style="color: #74c0fc"></i>
+                <span>Continue with Twitter</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <p class="terms">
+          By signing up to Home of Decor platform, you agree to our
+          <a href="#" title="Terms and Conditions">Terms and Conditions</a> and
+          our <a href="#" title="Return Policy">Return Policy</a>
+        </p>
+      </div>
+    </div>
+
+    <script>
+      document
+        .getElementById("sign-up-form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault(); // Prevent the default form submission
+
+          // Redirect to the home page
+          window.location.href = "/index.html";
+        });
+    </script>
+  </body>
+</html>

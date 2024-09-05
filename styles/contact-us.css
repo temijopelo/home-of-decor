@@ -1,0 +1,128 @@
+.hero-section {
+  height: 438px;
+  background-image: url("../images/contact-us-bg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.contact-container {
+  padding: 8rem;
+  line-height: 2;
+}
+
+.contact-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-right: 10rem;
+}
+
+.contact-details ul {
+  line-height: 2.5;
+}
+
+.newsletter-text {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.newsletter-form form {
+  border: 1px solid #333;
+  display: flex;
+  flex-direction: column;
+  padding: 1.9rem 4.2rem;
+  border-radius: 1.2rem;
+}
+
+.newsletter-form label {
+  margin-top: 2rem;
+}
+
+.newsletter-form input,
+.newsletter-form textarea {
+  padding: 1rem;
+  margin-top: 0.5rem;
+  border: none;
+  background-color: #d9d9d9;
+}
+
+.newsletter-form input {
+  padding: 2rem 1rem;
+}
+
+.newsletter-form textarea {
+  border-radius: 0.5rem;
+  height: 176px;
+}
+
+.newsletter-form button {
+  margin-top: 2rem;
+  padding: 1.5rem 3.7rem;
+  border: none;
+  background-color: #2d5356;
+  color: white;
+  border-radius: 2.2rem;
+  cursor: pointer;
+  width: 165px;
+  align-self: center;
+}
+
+.newsletter-form button:hover {
+  opacity: 0.8;
+}
+
+/* Media Query */
+@media (width > 991px) and (max-width: 1024px) {
+  .contact-container {
+    padding: 2rem;
+  }
+
+  .contact-section {
+    gap: 4rem;
+    margin-bottom: 10rem;
+  }
+
+  .contact-details {
+    /* gap: 1.5rem; */
+    padding-right: 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .newsletter-form form {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .contact-container {
+    padding: 2rem;
+  }
+
+  .contact-section {
+    grid-template-columns: 1fr;
+    margin-bottom: 5rem;
+  }
+
+  .contact-details {
+    gap: 1.5rem;
+    padding-right: 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .newsletter-form form {
+    padding: 2rem;
+  }
+}

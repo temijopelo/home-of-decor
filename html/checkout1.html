@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0"
+    />
+    <script
+      src="https://kit.fontawesome.com/127922d8a4.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Of Decor - checkout1</title>
+    <link rel="stylesheet" href="../styles/checkout1.css" />
+    <link rel="stylesheet" href="../styles/components.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="logo">
+        <a href="/index.html"><img src="../images/logo.svg" alt="Home of Decor logo" /></a>
+      </div>
+      <div class="nav-menu" id="nav-menu">
+        <div class="close-nav" id="close-nav"><i class="fa-solid fa-xmark"></i></div>
+        <nav>
+          <ul class="nav-links" id="nav-links">
+            <li><a href="/home-of-decor/index.html" class="active-menu">Home</a></li>
+            <li><a href="../home-of-decor/html/product_page.html">Product</a></li>
+            <li><a href="./html/about.html">About us</a></li>
+            <li><a href="./html/blog.html">Blog</a></li>
+            <li><a href="./html/contact-us.html">Contact us</a></li>
+          </ul>
+        </nav>
+        <div class="profile">
+          <div class="my-account">
+            <a href="./profile.html">
+              <i class="fa-regular fa-user fa-lg" style="color: #000000"></i>
+              <span>My account</span>
+            </a>
+            <div class="login-profile">
+              <div class="login" id="login-ref">Login</div>
+              <div class="profile-view" id="profile-ref">Profile</div>
+            </div>
+          </div>
+          <div class="cart-section">
+            <div class="search"><i class="fa-solid fa-magnifying-glass fa-lg" style="color: #000000"></i></div>
+            <div class="wish-list"><i class="fa-regular fa-heart fa-lg" style="color: #000000"></i></div>
+            <div class="shopping-cart"><a href="./basket.html"><span class="material-symbols-outlined"> shopping_cart </span></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="nav-bar" id="nav-bar"><i class="fa-solid fa-bars fa-lg"></i></div>
+    </header>
+
+    <section id="center">
+      <h3>Checkout</h3>
+    </section>
+    <section class="checkout">
+      <div id="div1">
+        <div id="form">
+          <p id="h1">Billing Details</p>
+          <form action="">
+            <div class="upper">
+              <div>
+                <p class="p">Full name<b>required</b></p>
+                <input
+                  type="text"
+                  name=""
+                  id="input"
+                  placeholder="oluwaseun"
+                  required
+                />
+              </div>
+              <div>
+                <p class="p">Last name <b>required</b></p>
+                <input
+                  type="text"
+                  name=""
+                  id="input"
+                  placeholder="abayomi"
+                  required
+                />
+              </div>
+            </div>
+            <div class="upper">
+              <div>
+                <p class="p">Phone number<b>required</b></p>
+                <input
+                  type="number"
+                  name=""
+                  id="input"
+                  placeholder="+234 | 8065783467"
+                  required
+                />
+              </div>
+              <div>
+                <p class="p">Email Address<b>required</b></p>
+                <input
+                  type="email"
+                  name=""
+                  id="input"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+            </div>
+            <div>
+              <p class="p1">Home Address<b>required</b></p>
+              <input
+                type="text"
+                name=""
+                id="input1"
+                placeholder="16,folarin street"
+                required
+              />
+              <p class="p1">
+                city
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b
+                  >required</b
+                >
+              </p>
+              <input
+                type="text"
+                name=""
+                id="input1"
+                placeholder="Mushin"
+                required
+              />
+              <p class="p1">Zip code &nbsp;&nbsp;&nbsp;&nbsp;<b>required</b></p>
+              <input
+                type="number"
+                name=""
+                id="input1"
+                placeholder="341506"
+                required
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+      <div id="div2">
+        <div id="check">
+          <div>
+            <p id="sum">Summary details</p>
+          </div>
+          <div id="bod">
+            <h3 id="sub">Subtotal <b>N390,000.00</b></h3>
+            <h3 id="sub">Shipping <b>Free</b></h3>
+            <!-- <p id="sub">aAdd coupon code</p> -->
+            <h3 id="total">Total <b>= N390,000.00</b></h3>
+            <div id="so">
+              <button>Confirm Payment</button>
+              <button>Cancel</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="payment">
+      <div>
+        <h3>How would you like to pay?</h3>
+        <form action="">
+          <div id="card">
+            <p>Pay with card</p>
+            <input type="checkbox" name="" id="" />
+          </div>
+          <div id="card">
+            <p>Bank Transfer</p>
+            <input type="checkbox" name="" id="" />
+          </div>
+          <div id="card">
+            <p>Ussd Code</p>
+            <input type="checkbox" name="" id="" />
+          </div>
+          <div id="card">
+            <p>QR Code</p>
+            <input type="checkbox" name="" id="" />
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section>
+      <form action="">
+        <div class="lower">
+          <div>
+            <p class="p">Name of Card</p>
+            <input
+              type="text"
+              name=""
+              id="input"
+              placeholder="oluwaseun abayomi"
+              required
+            />
+          </div>
+          <div>
+            <p class="p">Card number</p>
+            <input
+              type="number"
+              name=""
+              id="input"
+              placeholder="5061*************5467"
+              required
+            />
+          </div>
+        </div>
+        <div class="lower">
+          <div>
+            <p class="p">Expiration</p>
+            <input
+              type="number"
+              name=""
+              id="input"
+              placeholder="05/25"
+              required
+            />
+          </div>
+          <div>
+            <p class="p">cvv</p>
+            <input
+              type="number"
+              name=""
+              id="input"
+              placeholder="587"
+              required
+            />
+          </div>
+        </div>
+      </form>
+    </section>
+    <!-- Features Section -->
+    <section class="features">
+      <div class="feature">
+        <i class="fa-solid fa-truck-fast"></i>
+        <h3>Fast & Free Shipping</h3>
+      </div>
+      <div class="feature">
+        <i class="fa-solid fa-store"></i>
+        <h3>Easy to Shop</h3>
+      </div>
+      <div class="feature">
+        <i class="fa-solid fa-headset"></i>
+        <h3>24/7 Support</h3>
+      </div>
+      <div class="feature">
+        <i class="fa-solid fa-share fa-flip-horizontal"></i>
+        <h3>Hassle Free Returns</h3>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Information</h3>
+          <ul>
+            <li><a href="#">Delivery information</a></li>
+            <li><a href="#">Offers</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Shipping information</a></li>
+            <li><a href="#">Track your order</a></li>
+            <li><a href="#">Catalogues</a></li>
+            <li><a href="#">Help Center</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>About us</h3>
+          <ul>
+            <li><a href="#">Our Company</a></li>
+            <li><a href="#">Our story</a></li>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">Financing</a></li>
+            <li><a href="#">Advertise with us</a></li>
+            <li><a href="#">Location</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Customer service</h3>
+          <ul>
+            <li><a href="#">My Order</a></li>
+            <li><a href="#">My account</a></li>
+            <li><a href="#">24/7 call available</a></li>
+            <li><a href="#">Complains</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Resource</h3>
+          <ul>
+            <li><a href="#">Free Design Service</a></li>
+            <li><a href="#">Gift Registry</a></li>
+            <li><a href="#">Trader Resource</a></li>
+            <li><a href="#">Become an Affiliate</a></li>
+            <li><a href="#">Creator Program</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h3>Contact Us</h3>
+          <ul>
+            <li>
+              <i class="fa-regular fa-envelope fa-lg"></i
+              ><a href="mailto:HODecor@gmail.com">HODecor@gmail.com</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone fa-lg"></i
+              ><a href="tel:+2349043356791">+2349043356791</a>
+            </li>
+            <li>
+              <span>Follow us on</span>
+              <a href="#"
+                ><i
+                  class="fa-brands fa-facebook fa-lg"
+                  style="color: #2c53af"
+                ></i
+              ></a>
+              <a href="#"
+                ><i
+                  class="fa-brands fa-x-twitter fa-lg"
+                  style="color: #000000"
+                ></i
+              ></a>
+              <a href="#"
+                ><i
+                  class="fa-brands fa-instagram fa-lg"
+                  style="color: #b12525"
+                ></i
+              ></a>
+            </li>
+            <li>
+              <i class="fa-solid fa-location-dot fa-lg"></i><span>Lagos</span
+              ><i class="fa-solid fa-location-dot fa-lg"></i><span>Abuja</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-logo">
+        <img src="../images/logo.svg" alt="Home of Decor Logo" />
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Home of Decor. All rights reserved</p>
+        <div class="footer-links">
+          <a href="#">Privacy</a>
+          <a href="#">Terms & Conditions</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

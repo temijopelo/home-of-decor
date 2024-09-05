@@ -1,0 +1,165 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  height: 100vh;
+  margin: 0;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.profile-section {
+  padding: 4rem 8rem;
+  min-height: 90vh;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.profile-wrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+}
+
+.profile-header img {
+  max-width: 363px;
+  border-radius: 50%;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.profile-details h2 {
+  color: #2d5356;
+  font-size: 4.1rem;
+  text-align: center;
+}
+
+.profile-details form {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-form label {
+  font-size: 1.8rem;
+}
+
+.full-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.full-name > div {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.profile-form input {
+  border: none;
+  border-bottom: 2px solid #2d5356;
+  padding: 1rem 0;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  outline: none;
+}
+
+.profile-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.p-btn-group {
+  display: flex;
+  gap: 2rem;
+}
+
+.profile-buttons button {
+  background-color: #2d5356;
+  color: #fff;
+  border: none;
+  padding: 1.5rem 3.7rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.profile-buttons button:hover {
+  opacity: 0.8;
+}
+
+.save {
+  border-radius: 2rem !important;
+}
+
+.save a{
+  color: #fff;
+}
+/* Medai Query Section */
+@media (width > 768px) and (max-width:1024px) {
+  .profile-section {
+    padding: 2rem 3rem;
+    min-height: 60vh;
+  }
+
+  .profile-header img {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .profile-section {
+    padding: 2rem;
+  }
+
+  .profile-wrap {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-header {
+    justify-content: center;
+  }
+
+  .profile-header img {
+    max-width: 150px;
+  }
+
+  .full-name {
+    flex-direction: column;
+  }
+
+  .full-name > div {
+    width: 100%;
+  }
+
+  .profile-buttons{
+    gap: 1rem;
+  }
+
+  .p-btn-group {
+    gap: 1rem;
+  }
+
+  .profile-buttons button {
+    padding: 1.5rem 3rem;
+  }
+}
